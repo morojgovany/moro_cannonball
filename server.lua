@@ -1,7 +1,7 @@
 local playerOnCatapult = nil
 
 RegisterCommand("putOnCatapult", function(source, args, raw)
-    if args[1] and tonumber(args[1]) then
+    if args[1] and tonumber(args[1]) and not playerOnCatapult then
         playerOnCatapult = args[1]
         TriggerClientEvent('moro_cannonball:startCatapult', args[1])
     end
