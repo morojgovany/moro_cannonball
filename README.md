@@ -21,3 +21,5 @@ Add `moro_cannonball` to your `server.cfg` or `resources.cfg` file.
 
 License: Apache License 2.0
 Feel free to use, modify & improve it freely, provided the original author (Morojgovany) is explicitly mentioned.
+
+Video : https://youtu.be/mEuvoInscb0
