@@ -1,8 +1,8 @@
 local isOnCatapult = false
 local catapult = nil
 
-RegisterNetEvent('moro_catapult:spawnCatapult')
-AddEventHandler('moro_catapult:spawnCatapult', function()
+RegisterNetEvent('moro_cannonball:spawnCatapult')
+AddEventHandler('moro_cannonball:spawnCatapult', function()
     function LoadModel(model)
         if IsModelInCdimage(model) then
             RequestModel(model)
@@ -31,8 +31,8 @@ AddEventHandler('moro_catapult:spawnCatapult', function()
     end
 end)
 
-RegisterNetEvent('moro_catapult:startCatapult')
-AddEventHandler('moro_catapult:startCatapult', function()
+RegisterNetEvent('moro_cannonball:startCatapult')
+AddEventHandler('moro_cannonball:startCatapult', function()
     Citizen.CreateThread(function()
         local ped = PlayerPedId()
         function LoadAnim(dict)
@@ -55,8 +55,8 @@ AddEventHandler('moro_catapult:startCatapult', function()
     end)
 end)
 
-RegisterNetEvent('moro_catapult:catapult')
-AddEventHandler('moro_catapult:catapult', function()
+RegisterNetEvent('moro_cannonball:catapult')
+AddEventHandler('moro_cannonball:catapult', function()
     local ped = PlayerPedId()
     local playerPos = GetEntityCoords(ped)
     local forwardVector = GetEntityForwardVector(ped)

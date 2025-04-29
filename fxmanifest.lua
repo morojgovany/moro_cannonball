@@ -1,10 +1,10 @@
-description 'moro_catapult'
+description 'moro_cannonball'
 author 'Morojgovany'
 fx_version "adamant"
 games { "rdr3" }
 lua54 'yes'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
-startup_message "moro_catapult loaded successfully!"
+startup_message "moro_cannonball loaded successfully!"
 
 server_script {
     'server.lua'
