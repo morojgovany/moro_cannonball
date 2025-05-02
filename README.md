@@ -7,8 +7,6 @@ Add `moro_cannonball` to your `server.cfg` or `resources.cfg` file.
 ## Commands
 
 `/spawnCatapult` will spawn a catapult at the determined position in config file.
-`/putOnCatapult [playerPedId]` will put the specified player on the catapult.
-`/catapult` will launch the player on the catapult.
 
 ## Config
 
